@@ -1,3 +1,3 @@
-def call(string artifacts) {
+def call() {
   archiveArtifacts artifacts: 'publish/**', fingerprint: true
 }
