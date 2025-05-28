@@ -1,3 +1,3 @@
-def call() {
+def call(scm) {
   checkout scm
 }
