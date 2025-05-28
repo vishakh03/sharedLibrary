@@ -1,4 +1,4 @@
-def call() {
+def call(string test) {
   if (env.BRANCH_NAME == 'main') {
   bat 'dotnet test --configuration Release --no-build --no-restore'
   } else {
