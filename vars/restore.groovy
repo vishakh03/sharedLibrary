@@ -1,3 +1,3 @@
-def call(string restore) {
+def call() {
   bat 'dotnet restore'
 }
