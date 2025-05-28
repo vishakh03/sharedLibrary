@@ -1,3 +1,3 @@
-def call(string publish) {
+def call() {
    bat 'dotnet publish --configuration Release --no-build --output publish'
 }
